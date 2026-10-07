@@ -1,0 +1,16 @@
+feature,description,unit
+play_id,Synthetic unique play identifier,
+fielder_id,Synthetic fielder identifier,
+fielder_position,Outfield position,
+runner_base,Runner starting base before the catch,base number
+exit_speed,Batted-ball exit velocity,mph
+launch_angle,Vertical launch angle,degrees
+hit_distance,Estimated batted-ball distance,feet
+hangtime,Time from contact to catch,seconds
+start_pos_x,Fielder horizontal coordinate at contact,feet
+start_pos_y,Fielder vertical coordinate at contact,feet
+caught_pos_x,Fielder horizontal coordinate at catch,feet
+caught_pos_y,Fielder vertical coordinate at catch,feet
+fielder_throw_speed,Estimated maximum throwing speed,mph
+runner_sprint_speed,Estimated maximum sprint speed,mph
+runner_advance,Whether the runner successfully advanced,0 or 1
